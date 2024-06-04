@@ -1,53 +1,74 @@
-.box{
-   width: 450px;
-   height: 500px;
-   border: 3px solid rgb(183, 180, 180);
-   border-radius: 5%;
-   margin-top: 65px;
-   margin: 30px;
-   margin-top: 200px;
+.card{
+    background-color: rgb(13, 176, 122);
+    color: white;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin: 20px;
 }
-img{
-   width: 100%;
-   height: 40%
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    text-align: start;
+    font-size: xx-large;
+    padding-left: 10px;
 
 }
-body{
+.card-text{
     display: flex;
     justify-content: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-p{
-  text-align: start;
-  margin-left: 20px;
+    font-size: larger;
+    padding-left: 10px;
 }
 button{
-    width: 120px;
-    height: 35px;
-    margin: 20px;
-    border-radius: 20px;
-    margin-left: 20px;
-    background-color: gray;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    margin-left: 160px;
-    border: 1px white solid;
+   float: right;
+   padding: 35px;
+   border-radius: 25px;
+   padding: 10px;
+   margin: 25px;
+   background-color:rgb(13, 176, 122);
+   border: 3px white solid;
+   color: white;
 }
-.zag{
-    margin-left: 20px;
+.card2{
+    background-color: rgb(24, 121, 145);
+    color: white;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin: 20px;
 }
 button2{
-    width: 120px;
-    height: 35px;
+   float: right;
+   padding: 35px;
+   border-radius: 25px;
+   padding: 10px;
+   margin: 25px;
+   background-color:rgb(24, 121, 145);
+   border: 3px white solid;
+   color: white;
+}
+button3{
+    float: right;
+   padding: 35px;
+   border-radius: 25px;
+   padding: 10px;
+   margin: 25px;
+   background-color:#700e9e;
+   border: 3px white solid;
+   color: white;
+}
+.card3{
+    background-color: #700e9e;
+    color: white;
+    width: 350px;
+    height: 350px;
+    position: relative;
     margin: 20px;
-    border-radius: 20px;
-    margin-left: 20px;
-    background-color: rgb(217, 212, 212);
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    margin-left: 160px;
-    border: 1px rgb(248, 247, 247) solid;
-    color: gray;
 }
